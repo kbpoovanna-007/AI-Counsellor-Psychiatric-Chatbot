@@ -37,7 +37,7 @@ Visit the official Ollama download page based on your operating system:
    - License restrictions
 
 3. Pull your chosen model (example using llama2):
-```bash
+
 ollama pull llama2
 
 
