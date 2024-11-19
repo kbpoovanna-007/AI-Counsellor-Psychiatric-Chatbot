@@ -19,6 +19,7 @@ Before running the application, ensure you have the following installed:
 - Git
 - Ollama
   <br />
+  
 
 ## Installation Guide
 
