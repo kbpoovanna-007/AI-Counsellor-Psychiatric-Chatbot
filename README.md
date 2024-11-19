@@ -80,10 +80,21 @@ pip install langchain streamlit
 
 ## Running the Application
 
-## Start the Ollama server (in a new terminal):
+### Start the Ollama server (in a new terminal):
 ```
 ollama serve
 ```
+
+### Enter Virtual Environment
+```
+.venv\Scripts\activate.bat
+```
+
+### Run the streamlit app
+```
+stramlit run counselor_app.py
+```
+
 
 In a different terminal, make sure your virtual environment is activated, then run the Streamlit application:
 streamlit run counselor_app.py
