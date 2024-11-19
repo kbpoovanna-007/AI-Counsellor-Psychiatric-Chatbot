@@ -10,13 +10,14 @@ TEAM MEMBERS:
 ```
 
 ## Repository Structure
-
+```
 - about.html
 - counselor_app.py
 - image.jpg
 - dex.html
 - requirement.txt
 - trynow.html
+```
 <br />
 
 ## Prerequisites
