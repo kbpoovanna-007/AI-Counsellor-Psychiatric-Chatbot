@@ -53,7 +53,6 @@ ollama pull llama3.2
 git clone <repository-url>
 cd <repository-name>
 ```
-<br />
 
 ### Create and activate a virtual environment:
 
