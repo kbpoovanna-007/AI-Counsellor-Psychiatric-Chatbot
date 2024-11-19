@@ -18,7 +18,7 @@ Before running the application, ensure you have the following installed:
 - Python 3.8 or higher
 - Git
 - Ollama
-  <br />
+ <br />
   
 
 ## Installation Guide
