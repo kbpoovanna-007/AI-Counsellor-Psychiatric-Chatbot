@@ -1,6 +1,13 @@
-# AI Psychatric Counselor Application
+# Title: Mindwave AI counsellor chatbot
 
 This repository contains a web-based counseling application that uses LLaMA 3.2 and Langchain for providing automated counseling services.
+
+```
+TEAM MEMBERS:  
+- 21BPS1528 - K B Poovanna
+- 21BPS1397 - Govind G Krishnan
+- 21BCE5170 - K A Harsh Somaiah
+```
 
 ## Repository Structure
 
