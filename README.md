@@ -43,11 +43,11 @@ ollama pull llama2
 
 ## 4. Set Up Python Environment
 
-#### Clone the repository:
+### Clone the repository:
 git clone <repository-url>
 cd <repository-name>
 
-#### Create and activate a virtual environment:
+### Create and activate a virtual environment:
 
 #### For Windows:
 python -m venv venv
@@ -61,8 +61,10 @@ source venv/bin/activate
 ## Install required packages:
 pip install -r requirement.txt
 
-## Install additional required packages:
+### Install additional required packages:
 pip install langchain streamlit
+
+
 
 ## Running the Application
 
