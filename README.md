@@ -101,7 +101,7 @@ stramlit run counselor_app.py
 In a different terminal, make sure your virtual environment is activated, then run the Streamlit application:
 streamlit run counselor_app.py
 <br />
-
+<br />
 
 ## Usage
 
