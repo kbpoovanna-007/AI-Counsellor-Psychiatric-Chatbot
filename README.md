@@ -1,4 +1,4 @@
-# AI Counselor Application
+# AI Psychatric Counselor Application
 
 This repository contains a web-based counseling application that uses LLaMA 3.2 and Langchain for providing automated counseling services.
 
