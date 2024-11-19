@@ -62,7 +62,6 @@ cd <repository-name>
 python -m venv venv
 .\venv\Scripts\activate
 ```
-<br />
 
 
 #### For Linux/MacOS:
@@ -70,13 +69,11 @@ python -m venv venv
 python3 -m venv venv
 source venv/bin/activate
 ```
-<br />
 
 ### Install required packages:
 ```
 pip install -r requirement.txt
 ```
-<br />
 
 ### Install additional required packages:
 ```
@@ -91,24 +88,21 @@ pip install langchain streamlit
 ```
 ollama serve
 ```
-<br />
-
 
 ### Enter Virtual Environment
 ```
 .venv\Scripts\activate.bat
 ```
-<br />
 
 ### Run the streamlit app
 ```
 stramlit run counselor_app.py
 ```
 
-
 In a different terminal, make sure your virtual environment is activated, then run the Streamlit application:
 streamlit run counselor_app.py
 <br />
+
 
 ## Usage
 
