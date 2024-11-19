@@ -10,7 +10,7 @@ This repository contains a web-based counseling application that uses LLaMA 3.2 
 - dex.html
 - requirement.txt
 - trynow.html
-
+<br />
 ## Prerequisites
 
 Before running the application, ensure you have the following installed:
