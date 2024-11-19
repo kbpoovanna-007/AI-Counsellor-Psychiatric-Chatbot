@@ -5,9 +5,9 @@ This repository contains a web-based counseling application that uses LLaMA 3.2 
 ```
 TEAM MEMBERS:
 
-- 21BPS1528 - K B Poovanna
-- 21BPS1397 - Govind G Krishnan
-- 21BCE5170 - K A Harsh Somaiah
+ 21BPS1528 - K B Poovanna
+ 21BPS1397 - Govind G Krishnan
+ 21BCE5170 - K A Harsh Somaiah
 ```
 
 ## Repository Structure
