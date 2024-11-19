@@ -4,12 +4,12 @@ This repository contains a web-based counseling application that uses LLaMA 3.2 
 
 ## Repository Structure
 
-├── about.html
-├── counselor_app.py
-├── image.jpg
-├── index.html
-├── requirement.txt
-└── trynow.html
+- about.html
+- counselor_app.py
+- image.jpg
+- dex.html
+- requirement.txt
+- trynow.html
 
 ## Prerequisites
 
@@ -36,80 +36,79 @@ Visit the official Ollama download page based on your operating system:
    - Hardware requirements
    - License restrictions
 
-3. Pull your chosen model (example using llama2):
+### 3. Pull your chosen model (example using llama2):
 
 ollama pull llama2
 
 
+## 4. Set Up Python Environment
 
-3. Set Up Python Environment
-
-Clone the repository:
+#### Clone the repository:
 git clone <repository-url>
 cd <repository-name>
 
-Create and activate a virtual environment:
+#### Create and activate a virtual environment:
 
-For Windows:
+#### For Windows:
 python -m venv venv
 .\venv\Scripts\activate
 
 
-For Linux/MacOS:
+#### For Linux/MacOS:
 python3 -m venv venv
 source venv/bin/activate
 
-Install required packages:
+## Install required packages:
 pip install -r requirement.txt
 
-Install additional required packages:
+## Install additional required packages:
 pip install langchain streamlit
 
-Running the Application
+## Running the Application
 
-Start the Ollama server (in a new terminal):
+## Start the Ollama server (in a new terminal):
 ollama serve
 
 
 In a different terminal, make sure your virtual environment is activated, then run the Streamlit application:
 streamlit run counselor_app.py
 
-Usage
+## Usage
 
 The main application interface is accessible through the Streamlit server
 Navigate through different pages using the HTML files:
 
-index.html: Main landing page
-about.html: Information about the service
-trynow.html: Quick access to counseling services
+1. index.html: Main landing page
+2. about.html: Information about the service
+3. trynow.html: Quick access to counseling services
 
 
 
-Troubleshooting
+## Troubleshooting
 
 If you encounter any issues with Ollama:
 
-Ensure the Ollama server is running (ollama serve)
-Check if your chosen model is properly installed (ollama list)
-For Windows-specific issues, refer to the Windows installation guide on Ollama's website
+- Ensure the Ollama server is running (ollama serve)
+- Check if your chosen model is properly installed (ollama list)
+- For Windows-specific issues, refer to the Windows installation guide on Ollama's website
 
 
-For virtual environment issues:
+## For virtual environment issues:
 
-Make sure you're in the correct directory
-Verify that the virtual environment is activated (you should see (venv) in your terminal)
-
-
-For package installation issues:
-
-Try updating pip: pip install --upgrade pip
-Install packages one by one if batch installation fails
+- Make sure you're in the correct directory
+- Verify that the virtual environment is activated (you should see (venv) in your terminal)
 
 
+## For package installation issues:
 
-Additional Notes
+- Try updating pip: pip install --upgrade pip
+- Install packages one by one if batch installation fails
 
-Ensure you have sufficient disk space for the LLM model (size varies by model choice)
-The application requires an active internet connection for initial setup
-Keep all HTML files in the same directory for proper navigation
-Different models may have different performance characteristics and hardware requirements
+
+
+## Additional Notes
+
+- Ensure you have sufficient disk space for the LLM model (size varies by model choice)
+- The application requires an active internet connection for initial setup
+- Keep all HTML files in the same directory for proper navigation
+- Different models may have different performance characteristics and hardware requirements
