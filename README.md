@@ -1,4 +1,4 @@
-# Title: Mindwave AI counsellor chatbot
+# Title: Mindwave AI Counsellor Chatbot
 
 This repository contains a web-based counseling application that uses LLaMA 3.2 and Langchain for providing automated counseling services.
 
@@ -11,14 +11,12 @@ TEAM MEMBERS:
 ```
 
 ## Repository Structure
-```
 - about.html
 - counselor_app.py
 - image.jpg
 - dex.html
 - requirement.txt
 - trynow.html
-```
 <br />
 
 ## Prerequisites
