@@ -38,40 +38,52 @@ Visit the official Ollama download page based on your operating system:
 
 ### 3. Pull your chosen model (example using llama2):
 ```
-ollama pull llama2
+ollama pull llama3.2
 ```
+
 
 
 ## 4. Set Up Python Environment
 
 ### Clone the repository:
+```
 git clone <repository-url>
 cd <repository-name>
+```
 
 ### Create and activate a virtual environment:
 
 #### For Windows:
+```
 python -m venv venv
 .\venv\Scripts\activate
+```
 
 
 #### For Linux/MacOS:
+```
 python3 -m venv venv
 source venv/bin/activate
+```
 
 ## Install required packages:
+```
 pip install -r requirement.txt
+```
 
 ### Install additional required packages:
+```
 pip install langchain streamlit
+```
 
 
 
 ## Running the Application
 
 ## Start the Ollama server (in a new terminal):
+```
 ollama serve
-
+```
 
 In a different terminal, make sure your virtual environment is activated, then run the Streamlit application:
 streamlit run counselor_app.py
