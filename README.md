@@ -88,7 +88,7 @@ pip install langchain streamlit
 <br />
 
 
-## Running the Application
+## 5. Running the Application
 
 ### Start the Ollama server (in a new terminal):
 ```
@@ -110,7 +110,7 @@ streamlit run counselor_app.py
 <br />
 <br />
 
-## Usage
+## 6. Usage
 
 The main application interface is accessible through the Streamlit server
 Navigate through different pages using the HTML files:
@@ -121,22 +121,20 @@ Navigate through different pages using the HTML files:
 <br />
 
 
-## Troubleshooting
+## 7. Troubleshooting
 
 If you encounter any issues with Ollama:
 
 - Ensure the Ollama server is running (ollama serve)
 - Check if your chosen model is properly installed (ollama list)
 - For Windows-specific issues, refer to the Windows installation guide on Ollama's website
-<br />
 
-## For virtual environment issues:
+### For virtual environment issues:
 
 - Make sure you're in the correct directory
 - Verify that the virtual environment is activated (you should see (venv) in your terminal)
-<br />
 
-## For package installation issues:
+### For package installation issues:
 
 - Try updating pip: pip install --upgrade pip
 - Install packages one by one if batch installation fails
